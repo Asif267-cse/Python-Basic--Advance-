@@ -1,0 +1,25 @@
+# Creating a set
+my_set = {1, 2, 3, 4, 5}
+
+# Adding elements
+my_set.add(6)
+print("After adding 6:", my_set)  # Output: {1, 2, 3, 4, 5, 6}
+
+# Removing elements
+my_set.remove(3)
+print("After removing 3:", my_set)  # Output: {1, 2, 4, 5, 6}
+
+# Checking membership
+print("Is 4 in the set?", 4 in my_set)  # Output: True
+
+# Set operations
+another_set = {4, 5, 6, 7, 8}
+
+# Union
+print("Union:", my_set | another_set)  # Output: {1, 2, 4, 5, 6, 7, 8}
+
+# Intersection
+print("Intersection:", my_set & another_set)  # Output: {4, 5, 6}
+
+# Difference
+print("Difference:", my_set - another_set)  # Output: {1, 2}
